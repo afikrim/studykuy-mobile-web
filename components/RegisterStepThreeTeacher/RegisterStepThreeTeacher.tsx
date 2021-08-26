@@ -90,7 +90,7 @@ const RegisterStepThreeTeacher = (
               ? 'blue-400 hover:bg-blue-600 focus:bg-blue-600'
               : 'blue-200 cursor-default'
           }`}
-          disabled={isReadyToRegister}
+          disabled={!isReadyToRegister}
         >
           Register
         </button>
