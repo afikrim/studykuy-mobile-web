@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-import { USER_STATUS } from '../../pages/auth/register/logic'
+import { USER_STATUS } from '../../handlers/pages/Auth/Register'
 
 const RegisterStepTwoLogic = (args: { status?: USER_STATUS }) => {
   const [status, setStatus] = useState<USER_STATUS | undefined>(args.status)

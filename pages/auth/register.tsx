@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
 import React from 'react'
 
-import RegisterStepOne from '../../../components/RegisterStepOne/RegisterStepOne'
-import RegisterStepThreeStudent from '../../../components/RegisterStepThreeStudent/RegisterStepThreeStudent'
-import RegisterStepThreeTeacher from '../../../components/RegisterStepThreeTeacher/RegisterStepThreeTeacher'
-import RegisterStepTwo from '../../../components/RegisterStepTwo/RegisterStepTwo'
-import RegisterLogic, { USER_STATUS } from './logic'
+import RegisterStepOne from '../../components/RegisterStepOne/RegisterStepOne'
+import RegisterStepThreeStudent from '../../components/RegisterStepThreeStudent/RegisterStepThreeStudent'
+import RegisterStepThreeTeacher from '../../components/RegisterStepThreeTeacher/RegisterStepThreeTeacher'
+import RegisterStepTwo from '../../components/RegisterStepTwo/RegisterStepTwo'
+import RegisterLogic, { USER_STATUS } from '../../handlers/pages/Auth/Register'
 
 const Register: NextPage = () => {
   const {

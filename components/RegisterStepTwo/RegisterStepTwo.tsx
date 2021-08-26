@@ -1,6 +1,6 @@
 import { PropsWithoutRef } from 'react'
 
-import { RegisterState, USER_STATUS } from '../../pages/auth/register/logic'
+import { RegisterState, USER_STATUS } from '../../handlers/pages/Auth/Register'
 import RegisterStepTwoLogic from './RegisterStepTwoLogic'
 
 const RegisterStepTwo = (

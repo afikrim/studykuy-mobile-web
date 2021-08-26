@@ -169,6 +169,8 @@ const RegisterLogic = () => {
         if (status === USER_STATUS.TEACHER && nik === undefined) break
 
         setRegisterThirdStep(phone, nisn, nik)
+
+        location.href = '/'
         break
     }
   }
