@@ -60,8 +60,8 @@ const Register: NextPage = () => {
     )
 
   return (
-    <div className='container h-screen p-4'>
-      <div className='h-full w-full flex flex-nowrap justify-center pt-6'>
+    <div className='flex flex-nowrap justify-center h-screen w-screen p-4'>
+      <div className='container h-full w-full'>
         <div className='mx-auto w-4/5 p-4'>
           <img
             src='/assets/img/logo.png'
