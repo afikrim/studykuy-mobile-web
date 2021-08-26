@@ -65,6 +65,7 @@ const RegisterStepThreeTeacher = (
           id='term-agreement'
           className='mr-2'
           onChange={handleCheckboxChecked}
+          required
         />
         <span style={{ fontSize: '0.7rem' }}>
           <label htmlFor='term-agreement'>
