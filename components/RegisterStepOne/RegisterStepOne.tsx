@@ -98,7 +98,7 @@ const RegisterStepOne = (
       </div>
 
       <div className='flex flex-nowrap justify-between'>
-        <a href='/auth/login' className='px-5 py-1 text-blue-400 duration-100 bg-'>
+        <a href='/auth/login' className='px-5 py-1 text-blue-400'>
           Login
         </a>
 
