@@ -1,6 +1,6 @@
 import { PropsWithoutRef } from 'react'
 
-import { RegisterState } from '../../pages/auth/register/logic'
+import { RegisterState } from '../../handlers/pages/Auth/Register'
 import RegisterStepOneLogic from './RegisterStepOneLogic'
 
 const RegisterStepOne = (
@@ -98,7 +98,7 @@ const RegisterStepOne = (
       </div>
 
       <div className='flex flex-nowrap justify-between'>
-        <a href='/auth/login' className='px-5 py-1 text-blue-400 duration-100 bg-'>
+        <a href='/auth/login' className='px-5 py-1 text-blue-400'>
           Login
         </a>
 

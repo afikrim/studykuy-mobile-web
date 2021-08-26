@@ -1,6 +1,6 @@
 import { PropsWithoutRef } from 'react'
 
-import { RegisterState } from '../../pages/auth/register/logic'
+import { RegisterState } from '../../handlers/pages/Auth/Register'
 import RegisterStepThreeStudentLogic from './RegisterStepThreeStudentLogic'
 
 const RegisterStepThreeStudent = (
@@ -65,6 +65,7 @@ const RegisterStepThreeStudent = (
           id='term-agreement'
           className='mr-2'
           onChange={handleCheckboxChecked}
+          required
         />
         <span style={{ fontSize: '0.7rem' }}>
           <label htmlFor='term-agreement'>
@@ -89,7 +90,7 @@ const RegisterStepThreeStudent = (
               ? 'blue-400 hover:bg-blue-600 focus:bg-blue-600'
               : 'blue-200 cursor-default'
           }`}
-          disabled={isReadyToRegister}
+          disabled={!isReadyToRegister}
         >
           Register
         </button>
